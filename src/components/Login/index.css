@@ -1,0 +1,10 @@
+.login-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-img{
+    height: 50vh;
+    width: 300px;
+}

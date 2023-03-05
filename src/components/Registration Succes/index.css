@@ -1,0 +1,23 @@
+.res-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.res-heading{
+    color: rgb(49, 193, 42);
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.res-img{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.button{
+    width: 160px;
+}

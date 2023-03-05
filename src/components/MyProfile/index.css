@@ -1,0 +1,46 @@
+.pro-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.my-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #55c4d7;
+}
+
+.rating-container{
+    display: flex;
+    margin-top: 10px;
+    background-color: #b09898;
+    flex-direction: column;
+    padding: 20px;
+}
+.fullname{
+    font-weight: 700;
+    color: #cd9b1e;
+    font-family: 'Roboto';
+}
+.review{
+    border: 1px solid #4f5051;
+    padding: 10px;
+    box-shadow: #5e5f5f;
+    margin: 10px;
+    border-radius: 10px;
+    width: 450px;
+    box-shadow: 3px 3px black;
+}
+
+.success{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(243, 195, 108);
+}
+

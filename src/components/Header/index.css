@@ -1,0 +1,27 @@
+
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+}
+.profile-lnk{
+    margin-right: 10px;
+    color: rgb(3, 107, 142);
+    border-width: 0px;
+    background:none;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.logout-btn{
+    background-color: rgb(3, 107, 142);
+    color:rgb(224, 236, 239);
+}
+.link{
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(3, 107, 142);
+    border-width: 0px;
+    background:none;
+    font-size: 20px;
+    font-weight: 700;
+}

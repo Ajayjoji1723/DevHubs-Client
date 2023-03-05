@@ -1,0 +1,33 @@
+.my-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 20px;
+    background-color: rgb(122, 200, 200);
+    box-shadow: 3px 3px 3px rgb(111, 107, 107);
+}
+
+.skill{
+    list-style-type: none;
+}
+
+.rating-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(91, 153, 153);
+    max-width: 500px;
+    margin: 20px;
+    box-shadow: 3px 3px 3px rgb(111, 107, 107);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    color: rgb(144, 96, 8);
+    font-size: 18px;
+    font-weight: 500;
+}

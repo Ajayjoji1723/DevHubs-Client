@@ -1,0 +1,22 @@
+.register-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+.form-container{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.heading{
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'bree serif';
+}
+.reg-logo{
+   max-width: 600px;
+}
