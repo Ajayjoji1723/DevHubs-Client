@@ -12,7 +12,7 @@ function MyProfile(){
 
 
     useEffect(()=>{
-        axios.get('https://devhubs-server.onrender.com/myprofile',{
+        axios.get('http://localhost:3001/myprofile',{
             headers:{
                 'x-token': localStorage.getItem('token')
             }
@@ -20,7 +20,7 @@ function MyProfile(){
         .then(response =>setData(response.data))
         .catch(error=>console.log(error.response.data))
 
-        axios.get('https://devhubs-server.onrender.com/myreview',{
+        axios.get('http://localhost:3001/myreview',{
             headers:{
                 'x-token': localStorage.getItem('token')
             }

@@ -14,7 +14,7 @@ function IndProfile({ match }){
     
     const onSubmitHandler = e =>{
         e.preventDefault()
-        axios.get('https://devhubs-server.onrender.com/myprofile',{
+        axios.get('http://localhost:3001/myprofile',{
             headers:{
                 'x-token' : localStorage.getItem('token')
             }
@@ -28,7 +28,7 @@ function IndProfile({ match }){
             rating
         }
 
-        axios.post('https://devhubs-server.onrender.com/addreview', review ,{
+        axios.post('http://localhost:3001/addreview', review ,{
             headers:{
                 'x-token' : localStorage.getItem('token')
             }

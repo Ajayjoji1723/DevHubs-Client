@@ -10,7 +10,7 @@ function Home(){
     const [data,setData] = useState([]);
 
     useEffect(()=>{
-        axios.get('https://devhubs-server.onrender.com/allprofiles',{
+        axios.get('http://localhost:3001/allprofiles',{
             headers:{
                 'x-token': localStorage.getItem('token')
             }

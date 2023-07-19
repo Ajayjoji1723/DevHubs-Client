@@ -4,6 +4,8 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './index.css';
 
 
@@ -20,7 +22,7 @@ function Login(){
     const onSubmitBtn = e =>{
         e.preventDefault();
         if(email && password !== ''){
-            axios.post("https://devhubs-server.onrender.com/login/", userData)
+            axios.post("http://localhost:3001/login/", userData)
             .then(response=>{
                 if(response.status === 200){
                     let jwtToken = response.data.token
@@ -34,12 +36,14 @@ function Login(){
             })
         }else{
             window.alert("Please enter req details")
+                   
         }
     }
 
     return(
         <div className='login-container'>
             <div>
+                  
             <Form onSubmit={onSubmitBtn}>
                 <p>Doesn't have an account yet? <Link to="/register">Sign Up</Link></p>
                 <Form.Group className="mb-3" controlId="email" onChange={(e)=>setEmail(e.target.value)}>

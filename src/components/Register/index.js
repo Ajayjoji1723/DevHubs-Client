@@ -31,7 +31,7 @@ function Register() {
     const onSubmitForm=e=>{
         e.preventDefault();
         if(fullname && email && mobile && skills && password && confirmPassword !== ''){
-            axios.post('https://devhubs-server.onrender.com/register', userData)
+            axios.post('http://localhost:3001/register', userData)
             .then(response=>{
                 setData(response.data)
                 if(response.status === 200){
